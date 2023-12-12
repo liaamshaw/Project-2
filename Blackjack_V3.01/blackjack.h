@@ -14,13 +14,10 @@ private:
     float balance;
 
 public:
-    Player(); // Constructor
-    ~Player(); // Destructor
+    Player(); 
+    ~Player();
 
-    // Getter for balance
     float getBalance();
-
-    // Function declarations
     int generateRandomCard() const;
     int getCardValue(int card, int total, bool aceAsEleven) const;
     int getCardValue(int card, int total) const;
